@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utaxi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form  action="calculate-price" method="post" id="form1">
+    <label for="username">username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="origin">origin:</label><br>
+    <input type="text" id="origin" name="origin"><br>
+    <label for="destination">destination:</label><br>
+    <input type="destination" id="destination" name="destination"><br>
+    <label for="in-hurry">in hurry:</label><br>
+    <input type="in-hurry" id="in-hurry" name="in-hurry"><br>
+    </form>
+    <br><br>
+    <button type="submit" form="form1" value="Submit">calculate price</button> 
+    <button type="reset" form="form1">reset</button>
+
+</body>
+</html>

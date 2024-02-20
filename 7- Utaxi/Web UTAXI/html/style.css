@@ -1,0 +1,53 @@
+body {
+    background-image: url('home.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  background-size:100%;
+   height: 100%;
+   width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+button {
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(240, 178, 9);
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+input {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
